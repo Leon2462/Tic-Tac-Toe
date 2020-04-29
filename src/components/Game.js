@@ -63,10 +63,10 @@ class Game extends Component {
       const { winner } = this.state;
       const { flag } = this.state;
       if (winner === 'X') {
-        status = 'Победил X!';
+        status = 'Победил O!';
         this.clean();
       } else if (winner === 'O') {
-        status = 'Победил O!';
+        status = 'Победил X!';
         this.clean();
       } else if (winner === '' && !draw) {
         status = 'Ничья!';
