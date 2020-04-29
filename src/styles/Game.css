@@ -1,0 +1,23 @@
+td {
+    font-size: 550%;
+    height: 250px;
+    width: 200px;
+    align: center;
+}
+tr {
+    text-align: center;
+}
+Table {
+    height: 600px;
+    width: 600px;
+    border: 100px;
+}
+.Table-bordered{
+    border: 4px solid #dee2e6;
+}
+button {
+    font-size: 550%;
+    height: 250px;
+    width: 400px;
+    align: center;
+}
